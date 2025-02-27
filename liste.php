@@ -6,6 +6,7 @@ try {
 } catch (\PDOException $e) {
     var_dump($e);
     exit;
+}
 
 // ajout d'un produit dans la base de données
 if ( isset($_POST['product']) ) {
